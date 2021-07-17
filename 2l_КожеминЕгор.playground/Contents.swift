@@ -69,7 +69,7 @@ fiboArray // 1, 1, 2, 3, 5, 8, 13, 21...
  
  */
 
-var n = 200
+var n = 545
 var p = 2
 var resultArray = [Int]()
 var temporaryArray = [Int]()
@@ -88,7 +88,7 @@ while p <= n {
             j += p
         }
     }
-    p += 2
+    p += 1
 }
 
 // Теперь просто удалим вычеркнутые
